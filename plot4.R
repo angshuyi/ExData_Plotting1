@@ -6,7 +6,7 @@ source("Import_Data.R")
 # ---------------------------------
 # Set Panel Plotting & Canvas size
 # ---------------------------------
-png(file="plot4.png", width=650, height = 500)
+png(file="plot4.png", width=480, height = 480)
 par(mfrow=c(2,2))
 
 # ---------------------------------
@@ -37,7 +37,8 @@ legend("topright",
        col=c("black", "red", "blue"),
        c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
        lty=1,
-       box.lwd=0)
+       box.lwd=0,
+       bty = "n")
 
 # Bottom Right Graph
 # ------------------

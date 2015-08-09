@@ -6,7 +6,7 @@ source("Import_Data.R")
 # ---------------------------------
 # Set Canvas size
 # ---------------------------------
-png(file="plot1.png", width=500, height = 500)
+png(file="plot1.png", width=480, height = 480)
 
 # ---------------
 # Plot Graph 1
